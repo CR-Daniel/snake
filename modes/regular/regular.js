@@ -119,3 +119,7 @@ function directionChange(event){
       direction = "down";
   }
 }
+
+document.getElementById('color-mode').addEventListener('change', function() {
+  document.body.className = this.value + '-mode';
+});
